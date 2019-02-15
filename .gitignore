@@ -1,0 +1,5 @@
+#Gregory Wicklund
+#CSCI 3916 Week 1 .gitignore
+/node_modules
+npm-debug.log
+'/*.eng'
