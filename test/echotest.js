@@ -5,7 +5,7 @@ let server = require('../app');
 let should = chai.should();
 
 chai.use(chaiHttp);
-
+app.get('/',(req, res) => res.send('If you are seeing this, please run the tests through Postman, using the link in README.md at https://github.com/Xudmud/CSCI3916_HW1'));
 describe('Echo', () => {
     beforeEach((done) => { //Before each
             done();
